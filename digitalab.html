@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Le Digital Lab</title>
+    <link rel="stylesheet" href="ailes.css" />
+    <style>
+      /* === STYLE BLEU ET BLANC === */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        color: #003366;
+      }
+
+      header {
+        background-color: #003366;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+
+      p {
+        padding: 20px;
+        font-size: 1.2em;
+        max-width: 800px;
+        margin: auto;
+        text-align: center;
+      }
+
+      a {
+        color: #003366;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover {
+        color: #0077cc;
+      }
+
+      .onglets-container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin: 40px 0;
+      }
+
+      .carre {
+        background-color: #e6f0ff;
+        border: 2px solid #003366;
+        border-radius: 12px;
+        padding: 30px 40px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 51, 102, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .carre:hover {
+        transform: scale(1.05);
+      }
+
+      .carre a {
+        display: block;
+        margin: 15px 0;
+        font-size: 1.1em;
+      }
+
+      footer {
+        background-color: #003366;
+        color: white;
+        padding: 30px 20px;
+        margin-top: 60px;
+      }
+
+      footer nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      footer .logo {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: white;
+      }
+
+      footer ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      footer ul li a {
+        color: white;
+        font-weight: normal;
+      }
+
+      footer ul li a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Digital Lab</h1>
+    </header>
+
+    <p>
+      Un espace dynamique pour mettre l’IA au service de la métropole
+      d’Aix-Marseille et de ses entreprises.
+    </p>
+
+    <div class="onglets-container">
+      <div class="carre">
+        <a href="#contact">Nous contacter</a>
+        <a href="#rendezvous">Prendre rendez-vous</a>
+      </div>
+    </div>
+
+    <footer>
+      <nav>
+        <a href="scmb.html" class="logo">La Plateforme_</a>
+        <ul>
+          <li><a href="./scmb.html">Accueil</a></li>
+          <li><a href="./digitalab.html">Digital Lab</a></li>
+          <li><a href="./cd.html">Coding School</a></li>
+          <li><a href="html1.html">Cybersécurité School</a></li>
+          <li><a href="./EE.html">Executive Education</a></li>
+          <li><a href="#equipe">Équipe</a></li>
+          <li><a href="./page.corrigé.html">Qui sommes-nous ?</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
